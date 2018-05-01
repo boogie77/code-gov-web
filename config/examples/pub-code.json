@@ -1,0 +1,202 @@
+{
+  "title": "PubCode",
+  "api": {
+    "base": "https://api.code.gov/",
+    "key": "OC457325hyT6DpFm5HBBZ1i8SR6gtp5U2CdqtHZQ"
+  },
+  "style": "code-gov-style",
+  "twitter": {
+    "handle": ""
+  },
+  "content": {
+    "home": {
+      "banner": {
+        "motto": "PubCode",
+        "subtitle": "Code for the Scientific Community",
+        "help_wanted_description": ""
+      },
+      "mission": "PubCode is a prototype platform for developers to present their code in a formal environment, while showcasing useful metadata regarding the development, upkeep, and activity levels of their code to prospective users. Enhancing the users search for an appropriate tool for their given task provides an incentive to cite these open source tools, providing further interest in both its use and development.",
+      "about": [
+        {
+          "title": "Submit your Code",
+          "description": "Have you created some cool code?",
+          "link": "/submit",
+          "image": "../../../assets/img/icons/info_bl.png"
+        },
+        {
+          "title": "Show your Work",
+          "description": "Have you used code from PubCode",
+          "link": "/submit-case-study",
+          "image": "../../../assets/img/icons/policy_bl.png"
+        },
+        {
+          "title": "Roadmap",
+          "description": "See our progress",
+          "link": "/roadmap",
+          "image": "../../../assets/img/icons/check_bl.png"
+        }
+      ],
+      "featured": [
+        {
+          "short_name": "WNTR",
+          "verbose_name": "Water Network Tool for Resilience",
+          "author": "Environmental Protection Agency",
+          "description": "A python package designed to simulate and analyze resilience of water distribution networks.",
+          "image": "/assets/img/featured-projects/pipes4.png",
+          "links": {
+            "view_project": "/#/explore-code/agencies/DOE/repos/doe_snl_water_network_tool_for_resilience_v_1_0",
+            "go_to_repo": "https://github.com/usepa/wntr"
+          }
+        },
+        {
+          "short_name": "ITS ODE",
+          "verbose_name": "Intelligent Transportation Systems Operational Data Environment",
+          "author": "Department of Transportation",
+          "description": "A real-time virtual data router that ingests and processes operational data from various connected devices including vehicles, infrastructure, and traffic management centers and distributes it to other devices and subscribing transportation management applications.",
+          "image": "/assets/img/featured-projects/smartcity4.png",
+          "links": {
+            "view_project": "/#/explore-code/agencies/DOT/repos/dot_fhwa_intelligent_transportation_systems_operational_data_environment_its_ode_",
+            "go_to_repo": "https://github.com/usdot-jpo-ode/jpo-ode"
+          }
+        },
+        {
+          "short_name": "WALKOFF",
+          "verbose_name": "",
+          "author": "National Security Agency",
+          "description": "Enables security teams to integrate apps, workflows, and analytics tools that would otherwise need to be created from scratch.",
+          "image": "/assets/img/featured-projects/WALKOFF.png",
+          "links": {
+            "view_project": "/#/explore-code/agencies/NSA/repos/nsa_walkoff",
+            "go_to_repo": "https://github.com/iadgov/WALKOFF"
+          }
+        }
+      ],
+      "press": {
+        "quote": "It’s the latest in a long line of high-profile victories for the open source movement.",
+        "attribution": {
+          "image": "assets/img/logos/press/wired.svg",
+          "url": "https://www.wired.com/2016/08/open-source-won-now/"
+        },
+        "links": [
+          {
+            "image": "assets/img/logos/press/techcrunch.jpg",
+            "url": "https://techcrunch.com/2016/08/08/the-white-house-just-released-the-federal-source-code-policy-to-help-government-agencies-go-open-source/"
+          },
+          {
+            "image": "assets/img/logos/press/pcmag.png",
+            "url": "http://www.pcmag.com/news/346860/white-house-releases-open-source-software-policy"
+          },
+          {
+            "image": "assets/img/logos/press/fcw.png",
+            "url": "https://fcw.com/articles/2016/08/08/open-source-rockwell.aspx"
+          }
+        ]
+      }
+    },
+    "footer": {
+      "links": [
+        {
+          "name": "Privacy Policy",
+          "url": "/#/privacy-policy"
+        },
+        {
+          "name": "Visit Project Page",
+          "url": "https://github.com/NCBI-Hackathons/PubCode"
+        }
+      ],
+      "logos": [
+        {
+          "image": "/assets/img/logos/whitehouse.png",
+          "name": "The White House",
+          "url": "https://whitehouse.gov/"
+        },
+        {
+          "image": "/assets/img/logos/PIF.png",
+          "name": "Presidential Innovation Fellows",
+          "url": "https://presidentialinnovationfellows.gov/"
+        },
+        {
+          "image": "/assets/img/logos/NLM.png",
+          "name": "U.S. National Library of Medicine",
+          "url": "https://www.nlm.nih.gov/"
+        }
+      ]
+    },
+    "roadmap": {
+      "overview": [
+        "At PubCode, we know it’s important to keep an open dialogue with our users. That’s why we’re sharing our plans for the future through this Development Roadmap. Hopefully, it will help you better understand our priorities for the platform.",
+        "The Development Roadmap is organized into three categories – Near-term, Mid-term, and Long-term. Priorities are sorted into roadmap categories based on feedback we receive during user interviews. Dependencies and resources are also factors that affect placement on the roadmap."
+      ],
+      "near": [
+        { "name": "Create Prototype", "status": "Released" },
+        { "name": "Roadmap on site", "status": "Released" },
+        { "name": "Create Metadata Schema", "status": "In Progress" },
+        { "name": "Create MVP", "status": "In Progress" }
+      ],
+      "mid": [
+        { "name": "Integrate Quality Metric", "status": null }
+      ],
+      "long": [
+        { "name": "Integrate literature highlighting by Bowtie v Bowtie2", "status": null },
+        { "name": "Integrate u-INDEX by Callahan et al. (2018)", "status": null }
+      ],
+      "disclaimer": "This Development Roadmap (Roadmap) is for informational purposes only. The PubCode team will update the Roadmap as frequently as possible but, given that it’s subject to change at any time, the information presented by the Roadmap should not be used for planning purposes. The information presented in the Roadmap does not represent a solicitation or similar contract vehicle. All items in the Roadmap will be developed and released at the sole discretion of PubCode, the Presidential Innovation Fellows, the National Center for Biotechnology Information, and the United States Federal Government."
+    }
+  },
+  "images": {
+    "background": "./assets/img/american_flag_1920x1280_gradient.jpg"
+  },
+  "privacy_policy": "<h1>Privacy Policy</h1>
+  <h2>PROTECTING PRIVACY AND SECURITY</h2>
+  <p>
+    Protecting the privacy and security of individuals’ personal information is very important to us. We do not collect any information that directly identifies you when you visit Code.gov unless you choose to provide that information by contacting us. However, the website may collect a limited amount of information about your visit for the purposes of website analytics and customization. Please read this notice to understand what we do with the limited amount of information about your visit that we may collect.
+  </p>
+  <h3>Information Collected and Stored Automatically</h3>
+  <p>
+    We collect limited information about visits to Code.gov. This information is used to measure the number of visitors to the various sections of our website and to identify performance or problem areas. We also use this information to help us develop the site, analyze patterns of usage, and to make the site more useful. We do not share or sell visitor data for the purposes of advertising, marketing, or any other commercial purpose. This information is not used for associating search terms or patterns of site navigation with individual users. The information that is automatically collected and stored concerning your visit includes:
+  </p>
+  <ul>
+    <li>
+      The domain from which you access the Internet (i.e., HHS.gov if you are connecting from a HHS account, or GMU.edu if you are connecting from George Mason University’s domain);
+    </li>
+    <li>The date and time of your visit;</li>
+    <li>Your location, as approximated by GPS, and other sensors;</li>
+    <li>The type of device you used to access Code.gov (i.e., mobile or desktop);</li>
+    <li>The operating system of the device you used to access Code.gov;</li>
+    <li>The pages you visit on Code.gov;</li>
+    <li>
+      The Internet address of the website you came from if it linked you directly to Code.gov; and
+    </li>
+    <li>
+      Aany search terms that you may enter when searching Code.gov.
+    </li>
+  </ul>
+  <h3>How Code.gov uses Cookies</h3>
+  <p>
+    When you visit a website, its server may generate a piece of text known as a “cookie” to place on your device. The cookie, which is unique to your browser, allows the server to “remember” specific information about your visit while you are connected.</p>
+  <p>There are two types of cookies – single session (temporary) and multi-session (persistent). Single session cookies last only as long as your Web browser is open. Once you close your browser, the session cookie disappears. Persistent cookies are stored on your device for longer periods. Both types of cookies create an identifier that is unique to your device. The Office of Management and Budget Memorandum M-10-22, Guidance for Online Use of Web Measurement and Customization Technologies, allows Federal entities to use both session and persistent cookies to improve the delivery of services.</p>
+  <ul>
+  <li>Session Cookies: We may use session cookies for technical purposes, such as to allow better navigation through our site. These cookies let our server know that you are continuing a visit to our site. Our use of session cookies qualifies as “Usage Tier 1–Single Session,” as defined in the OMB M-10-22 guidance.</li>
+  <li>Persistent Cookies: We may use persistent cookies to understand the differences between new and returning visitors to Code.gov. Persistent cookies remain on your device between visits to our site until they expire or are removed by the user. Our use of persistent cookies qualifies as “Usage Tier 2–Multi-session without personally identifiable information,” as defined in the OMB M-10-22 guidance. The policy states, “This tier encompasses any use of multi-session Web measurement and customization technologies when no [personally identifiable information] is collected.” We do not use persistent cookies to collect personally identifiable information.</li>
+  </ul>
+  <p>If you do not want to accept cookies, you can edit your browser’s options to stop accepting persistent cookies or to prompt you before accepting a cookie from the websites you visit. Here are instructions for how you can disable cookies and/or Google Demographic and Interests reports.</p>
+  <h3>Google Analytics</h3>
+  <p>Code.gov participates in the U.S. Digital Analytics Program, (DAP) which utilizes a unified Google Analytics account for Federal agencies. This program helps Federal agencies understand how people find, access, and use government services online.</p>
+  <p>The DAP is a hosted shared service provided by the General Services Administration’s (GSA’s) Office of Citizen Services and Innovative Technologies, and the protocol and information collected are the same for all websites participating in the DAP. As a participant in GSA’s DAP program, this website’s Google Analytics traffic data is automatically reported to GSA.</p>
+  <p>Google Analytics is a third-party web measurement and customization technology as defined in OMB M-10-22 (PDF).</p>
+  <p>Here is how it works: Google Analytics sets one or more cookies on your computer so that it can recognize your computer if you visit the Code.gov website in the future. These cookies doe not collect personally identifiable information. This is considered a Tier 2 usage, as defined in the OMB guidance.</p>
+  <p>Google Analytics does not collect personally identifiable information through its cookies. The program does not track individuals and anonymizes the IP addresses of visitors. Common Questions about DAP (FAQ) provides more information about how IP addresses are anonymized. According to GSA’s Common Questions About DAP, “none of the federal government data tracked as part of the Data Analytics Program will be shared with or available to Google’s corporate advertising partners.”</p>
+  <p>A limited number of authorized individuals will have user accounts that will allow them to log in to the Google Analytics dashboard and view or run reports regarding visits to Code.gov and the other web metrics available from the DAP.</p>
+  <p>Visitors who choose to disable this web measurement tool will still have full access to Code.gov. While the details vary from browser to browser, most modern browsers can be set up to accept, reject, or request user intervention when a site asks to set a cookie.</p>
+  <p>You can view web metrics information at <a href='https://analytics.usa.gov'>https://analytics.usa.gov/</a>.</p>
+  <h3>Contacting the Office of the Federal Chief Information Officer about Code.gov</h3>
+  <p>Users of this website may send the Office of the Federal Chief Information Officer feedback or report an issue by sending an email to code@gsa.gov. If you choose to send us your personally identifiable information, we will only use that information to respond to your message. We only share the information you give us with another government agency if your question relates to that agency, or as otherwise required by law. Code.gov never collects information or creates individual profiles for the purposes of advertising, marketing, or any other commercial purpose. When you contact us, any personally identifiable information you provide is voluntary. Please do not include sensitive personally identifiable information or other sensitive information in the content of your email.</p>
+  <h3>Children and Privacy on Code.gov</h3>
+  <p>We believe in the importance of protecting the privacy of children online. The Children’s Online Privacy Protection Act (COPPA) governs information gathered online from or about children under the age of 13. This site is not intended to solicit or collection information of any kind from children under age 13. If you believe that we have received information from a child under age 13, please contact us at code@gsa.gov.</p>
+  <h3>Security</h3>
+  <p>This website was built using GitHub Pages, a service provided by GitHub, Inc. (GitHub) designed to enable the rapid deployment of government websites in a secure and readily accessible environment.</p>
+  <p>The terms of service applicable to Federal users of GitHub states that it “will, in good faith, exercise due diligence using generally accepted commercial business practices for IT security, to ensure that systems are operated and maintained in a secure manner, and that management, operational and technical controls will be employed to ensure security of systems and data. Recognizing the changing nature of the Web, [GitHub] will continuously work with users to ensure that its products and services are operated and maintained in a secure manner. [GitHub] agrees to discuss implementing additional security controls as deemed necessary by the Agency to conform to the Federal Information Security Management Act (FISMA), 44 U.S.C. 3541 et seq.”</p>
+  <p>We encourage you to visit <a external-link href='https://help.github.com/articles/github-terms-of-service/'>GitHub</a> if you have additional questions about the service.</p>
+  <h3>Questions about the Privacy Policy</h3>
+  <p>Write to the Code.gov team at: <a href='mailto:code@gsa.gov'>code@gsa.gov</a></p>"
+}
